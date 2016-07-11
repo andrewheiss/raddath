@@ -41,7 +41,7 @@ To use this addin:
 -   Assign "View object" a keyboard shortcut
 -   Select code, press the keyboard shortcut, and voila!
 
-![Animation of view\_object](internal/viewobject.gif)
+<img src="https://raw.githubusercontent.com/andrewheiss/raddath/master/internal/viewobject.gif" width="400" height="369">
 
 Credits
 -------
