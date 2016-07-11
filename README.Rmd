@@ -26,3 +26,35 @@ knitr::opts_chunk$set(
 # raddath
 
 RStudio addins let you run R code or a Shiny app through the Rstudio IDE, either via the *Addins* dropdown menu or with a keyboard shortcut.
+
+RStudio docs on addins (with examples): 
+<https://rstudio.github.io/rstudioaddins/>
+
+To use addins:
+
+- Run RStudio v0.99.878 or later
+    - <https://www.rstudio.com/products/rstudio/download/preview/>
+- Run `rstudioapi` package v0.5 or later
+    - `install.packages("rstudioapi", type = "source")`
+- Populate your *Addins* dropdown menus with some examples
+    - `devtools::install_github("rstudio/addinexamples", type = "source")`
+
+## Addins
+
+### `view_object_addin`
+
+The `view_object_addin` takes selected text and pipes it into `View()` so you can inspect it in RStudio without typing the command in the console or finding and clicking on it in the "Environment" panel. The addin works best when you assign it a keyboard shortcut, like `ctrl + shift + v`.
+
+To use this addin:
+
+- Run very recent RStudio IDE and `rstudioapi` package (see above)
+- Run `devtools::install_github("andrewheiss/raddath")`
+- Go to Tools > Addins > Browse Addins > Keyboard shortcuts…
+- Assign "View object" a keyboard shortcut
+- Select code, press the keyboard shortcut, and voila!
+
+![Animation of view_object](internal/viewobject.gif)
+
+## Credits
+
+I basically pilfered the template for this addin from Jenny Bryan's [`jadd`](https://github.com/jennybc/jadd).
