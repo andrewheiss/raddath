@@ -1,0 +1,4 @@
+Name: View object
+Description: Sends selection to `View()`
+Binding: view_object_addin
+Interactive: false

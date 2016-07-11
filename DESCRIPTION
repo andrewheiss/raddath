@@ -1,0 +1,18 @@
+Package: raddath
+Title: Andrew's RStudio Addins
+Version: 0.0.0.9000
+Authors@R: person("Andrew", "Heiss", role=c("aut", "cre"),
+  email = "andrew@andrewheiss.com")
+Description: RStudio addins let you execute a bit of R code or a Shiny app
+    through the RStudio IDE, either via the Addins dropdown menu or with a
+    keyboard shortcut. These are mine.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends:
+    R (>= 3.2.2)
+LazyData: true
+Imports:
+    rstudioapi
+Suggests:
+    testthat
+RoxygenNote: 5.0.1
