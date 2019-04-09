@@ -41,6 +41,16 @@ To use addins:
 
 ## Addins
 
+### Theme switching
+
+This package provides two menu options for changing the RStudio theme. I use a dark Monokai theme normally, but this throws students off when I an teaching, so I like to use the default Textmate theme then. 
+
+- Set Light Theme: Use when teaching or presenting
+- Set Dark Theme: Use at all other times
+
+(code for this borrowed from [David Severski](https://github.com/davidski/dfsmisc))
+
+
 ### `view_object_addin`
 
 The `view_object_addin` takes selected text and pipes it into `View()` so you can inspect it in RStudio without typing the command in the console or finding and clicking on it in the "Environment" panel. The addin works best when you assign it a keyboard shortcut, like `ctrl + shift + v`.
@@ -54,6 +64,7 @@ To use this addin:
 - Select code, press the keyboard shortcut, and voila!
 
 <img src="https://raw.githubusercontent.com/andrewheiss/raddath/master/internal/viewobject.gif" width="400" height="369">
+
 
 ## Credits
 
